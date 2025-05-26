@@ -8,9 +8,9 @@ export default function Home() {
       <main className={styles.main}>
         {/* About You */}
         <section className={styles.section} id="about">
-          <h1 className={styles.title}>Hi, I'm Jason Phung</h1>
+          <h1 className={styles.title}>Hi, I&apos;m Jason Phung</h1>
           <p className={styles.subtitle}>
-            I'm a Computer Science student at the University of Ottawa with a growing passion for UI/UX design and front-end development.
+            I&apos;m a Computer Science student at the University of Ottawa with a growing passion for UI/UX design and front-end development.
           </p>
         </section>
 
@@ -18,7 +18,7 @@ export default function Home() {
         <section className={styles.section} id="how-i-work">
           <h2>How I Work</h2>
           <p>
-            I'm currently learning UI/UX design in a university course focused on design principles, user-centered design, and heuristic evaluation. I'm exploring design best practices through sources like <a href="https://www.nngroup.com/" target="_blank">NN/g</a> and the Interaction Design Foundation.
+            I&apos;m currently learning UI/UX design in a university course focused on design principles, user-centered design, and heuristic evaluation. I&apos;m exploring design best practices through sources like <a href="https://www.nngroup.com/" target="_blank">NN/g</a> and the Interaction Design Foundation.
           </p>
           <p>
             As I learn, I am building out a design process that includes research, sketching, wireframing, prototyping, and user feedback.
