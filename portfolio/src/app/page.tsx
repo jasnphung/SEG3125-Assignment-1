@@ -12,13 +12,16 @@ export default function Home() {
           <p className={styles.subtitle}>
             I&apos;m a Computer Science student at the University of Ottawa with a growing passion for UI/UX design and front-end development.
           </p>
+          <p>
+            Currently, I&apos;m working at the Public Service Commission as a Data Analyst, analyzing data to improve hiring processes and ensure fair recruitment practices.
+          </p>
         </section>
 
         {/* How You Work */}
         <section className={styles.section} id="how-i-work">
           <h2>How I Work</h2>
           <p>
-            I&apos;m currently learning UI/UX design in a university course focused on design principles, user-centered design, and heuristic evaluation. I&apos;m exploring design best practices through sources like <a href="https://www.nngroup.com/" target="_blank">NN/g</a> and the Interaction Design Foundation.
+            I&apos;m currently learning UI/UX design in a university course focused on design principles, user-centered design, and heuristic evaluation. I&apos;m exploring design best practices through sources like NN/g and the Interaction Design Foundation.
           </p>
           <p>
             As I learn, I am building out a design process that includes research, sketching, wireframing, prototyping, and user feedback.
