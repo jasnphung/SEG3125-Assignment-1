@@ -32,11 +32,11 @@ export default function Home() {
         <section className={styles.section} id="case-studies">
           <h2>Case Studies</h2>
           <div className={styles.grid}>
-            <Link href="/case-studies/service" className={styles.cardLink}>
+            <Link href="https://seg3125-assignment-2.vercel.app/" className={styles.cardLink}>
               <div className={styles.card}>
                 <Image src="/service.png" alt="Service Site" width={300} height={200} className={styles.caseImage} />
                 <h3>Service Website</h3>
-                <p>Coming Soon</p>
+                <p>Featuring Rapid AutoCare, an automotive repair business</p>
               </div>
             </Link>
             <Link href="/case-studies/game" className={styles.cardLink}>
