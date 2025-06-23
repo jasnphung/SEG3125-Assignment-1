@@ -39,11 +39,11 @@ export default function Home() {
                 <p>Featuring Rapid AutoCare, an automotive repair business</p>
               </div>
             </Link>
-            <Link href="/case-studies/game" className={styles.cardLink}>
+            <Link href="https://seg3125-assignment-3.vercel.app/" className={styles.cardLink}>
               <div className={styles.card}>
                 <Image src="/game.png" alt="Game Design" width={300} height={200} className={styles.caseImage} />
                 <h3>Game Website</h3>
-                <p>Coming Soon</p>
+                <p>Featuring Quick Match, a memory card matching game</p>
               </div>
             </Link>
             <Link href="/case-studies/ecommerce" className={styles.cardLink}>
