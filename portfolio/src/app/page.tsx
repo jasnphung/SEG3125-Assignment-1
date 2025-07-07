@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        {/* About You */}
         <section className={styles.section} id="about">
           <h1 className={styles.title}>Hi, I&apos;m Jason Phung</h1>
           <p className={styles.subtitle}>
@@ -17,7 +16,6 @@ export default function Home() {
           </p>
         </section>
 
-        {/* How You Work */}
         <section className={styles.section} id="how-i-work">
           <h2>How I Work</h2>
           <p>
@@ -28,7 +26,6 @@ export default function Home() {
           </p>
         </section>
 
-        {/* Case Studies */}
         <section className={styles.section} id="case-studies">
           <h2>Case Studies</h2>
           <div className={styles.grid}>
@@ -46,11 +43,11 @@ export default function Home() {
                 <p>Featuring Quick Match, a memory card matching game</p>
               </div>
             </Link>
-            <Link href="/case-studies/ecommerce" className={styles.cardLink}>
+            <Link href="https://seg3125-assignment-4.vercel.app/" className={styles.cardLink}>
               <div className={styles.card}>
                 <Image src="/ecommerce.png" alt="E-commerce" width={300} height={200} className={styles.caseImage} />
                 <h3>E-Commerce Website</h3>
-                <p>Coming Soon</p>
+                <p>Featuring Closet Click, a clothing e-commerce site</p>
               </div>
             </Link>
             <Link href="/case-studies/analytics" className={styles.cardLink}>
