@@ -8,19 +8,19 @@ export default function Home() {
     <div className="container py-5">
       <main>
         <section className="mb-5" id="about">
-          <h1 className="display-4 text-center mb-3">Hi, I'm Jason Phung</h1>
+          <h1 className="display-4 text-center mb-3">Hi, I&apos;m Jason Phung</h1>
           <p className="lead text-center">
-            I'm a Computer Science student at the University of Ottawa with a growing passion for UI/UX design and front-end development.
+            I&apos;m a Computer Science student at the University of Ottawa with a growing passion for UI/UX design and front-end development.
           </p>
           <p className="text-center">
-            Currently, I'm working at the Public Service Commission as a Data Analyst, analyzing data to improve hiring processes and ensure fair recruitment practices.
+            Currently, I&apos;m working at the Public Service Commission as a Data Analyst, analyzing data to improve hiring processes and ensure fair recruitment practices.
           </p>
         </section>
 
         <section className="mb-5" id="how-i-work">
           <h2 className="h3 mb-3">How I Work</h2>
           <p>
-            I'm currently learning UI/UX design in a university course focused on design principles, user-centered design, and heuristic evaluation. I'm exploring design best practices through sources like NN/g and the Interaction Design Foundation.
+            I&apos;m currently learning UI/UX design in a university course focused on design principles, user-centered design, and heuristic evaluation. I&apos;m exploring design best practices through sources like NN/g and the Interaction Design Foundation.
           </p>
           <p>
             As I learn, I am building out a design process that includes research, sketching, wireframing, prototyping, and user feedback.
